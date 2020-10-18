@@ -1,0 +1,84 @@
+.contact-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  font-size: 15px;
+  color: #292929;
+  border-top: 1px solid #e2e2e2;
+}
+
+.contact-container:last-child {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.contact {
+  width: 100%;
+  padding: 5px;
+}
+
+.contact .item {
+  padding: 5px;
+}
+
+.contact-editing {
+  width: 100%;
+  padding: 5px;
+}
+
+.contact-editing .item {
+  padding: 3px;
+}
+
+.contact-editing input {
+  width: calc(100% - 10px);
+  padding-bottom: 3px;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  background: transparent;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.contact-editing input:focus {
+  outline: none;
+  border-bottom: 1px solid #707070;
+}
+
+.button-container {
+  width: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container div {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.button-container i {
+  font-size: 0.8em;
+  margin-right: 3px;
+  position: relative;
+  top: -1px;
+}
+
+.edit-button {
+  /* background-color: #FFC107; */
+  color: #ebb000;
+  border-radius: 5px;
+  border: 1px solid #ebb000;
+}
+
+.delete-button {
+  /* background-color: #DC3545; */
+  color: #DC3545;
+  border-radius: 5px;
+  border: 1px solid #DC3545;
+}
