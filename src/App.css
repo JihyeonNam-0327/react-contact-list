@@ -1,42 +1,6 @@
 .App {
   width: 375px;
   margin: auto;
-}
-
-.input-container {
   display: flex;
-  margin: 15px;
-  border-radius: 10px;
-  /* background-color: #e2e2e2; */
-  background-color: #6C757D;
-}
-
-.icon {
-  padding: 10px;
-  background: #6C757D;
-  border-radius: 10px;
-  color: #ffffff;
-  min-width: 20px;
-  margin: auto;
-  text-align: center;
-}
-
-.input-field {
-  font-size: 16px;
-  color: #ffffff;
-  width: 100%;
-  padding: 10px;
-  outline: none;
-  border: 0px solid;
-  border-radius: 0;
-  background-color: transparent;
-}
-
-.input-field:focus {
-  outline: none;
-  /* border: 2px solid dodgerblue; */
-}
-
-.input-field::placeholder {
-  color: #ffffff;
+  flex-direction: column;
 }

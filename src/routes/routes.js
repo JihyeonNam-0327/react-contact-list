@@ -1,13 +1,13 @@
 import components from '../components'
-import app from '../App'
+import { CONTACT_BASIC, CREATE_CONTACT } from './paths'
 
 const CreateContact = {
   component: components.CreateContact,
-  path: '/createContact'
+  path: CREATE_CONTACT
 }
-const App = {
-  component: app,
-  path: '/'
+const ContactBasic = {
+  component: components.ContactBasic,
+  path: CONTACT_BASIC
 }
 
-export default [CreateContact, App]
+export default [CreateContact, ContactBasic]
