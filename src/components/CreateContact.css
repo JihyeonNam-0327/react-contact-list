@@ -1,0 +1,68 @@
+.create-contact {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f7f9ff;
+}
+
+.create-contact button {
+  box-shadow: none; 
+  padding: 5px; 
+  overflow: visible;
+  border-radius: 5px;
+  border: 1px solid #17A2B8;
+  background-color: #ffffff;
+  color: #17A2B8;
+  width: 74px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button i {
+  margin-right: 3px;
+}
+
+a {
+  display: block;
+  margin-left: auto;
+  width: fit-content;
+  margin-right: 25px;
+}
+
+.header {
+  display: flex;
+}
+
+h3 {
+  margin: 5px 0 0 20px;
+  padding: 0;
+  display: inline;
+  font-size: 30px;
+}
+
+.create-contact .input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 30px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.create-contact input {
+  width: calc(100% - 10px);
+  padding-bottom: 3px;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  background: transparent;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.create-contact input:focus {
+  outline: none;
+  border-bottom: 1px solid #707070;
+}

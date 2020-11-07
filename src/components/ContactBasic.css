@@ -1,0 +1,82 @@
+.contact-basic {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f7f9ff;
+}
+
+.input-container {
+  display: flex;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #6C757D;
+}
+
+.icon {
+  padding: 10px;
+  background: #6C757D;
+  border-radius: 10px;
+  color: #ffffff;
+  min-width: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-field {
+  font-size: 16px;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 0px solid;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.input-field:focus {
+  outline: none;
+  /* border: 2px solid dodgerblue; */
+}
+
+.input-field::placeholder {
+  color: #ffffff;
+}
+
+button {
+  background-color: #ffffff; 
+  box-shadow: none; 
+  padding: 5px; 
+  overflow: visible;
+  border-radius: 5px;
+  border: 1px solid #17A2B8;
+  color: #17A2B8;
+  width: 74px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button i {
+  margin-right: 3px;
+}
+
+a {
+  display: block;
+  margin-left: auto;
+  width: fit-content;
+  margin-right: 25px;
+}
+
+.header {
+  display: flex;
+}
+
+h3 {
+  margin: 5px 0 0 20px;
+  padding: 0;
+  display: inline;
+  font-size: 30px;
+}
