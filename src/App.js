@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-// import { connect } from 'react-redux';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { connect } from 'react-redux';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import routes from './routes/routes.js'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div className="App">
           <Switch>
             {routes.map(route => (
@@ -16,14 +16,14 @@ class App extends Component {
                 key={route.path}
                 path={route.path}
                 component={route.component}
-              />
-            ))}
+                // store=
+                />
+                ))}
           </Switch>
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
 
-// export default connect(App);
-export default App;
+export default connect(state => state)(App);

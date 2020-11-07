@@ -1,22 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// main app applied route
 import App from './App';
+import './index.css';
+import { Provider } from 'react-redux';
+import store from './store/store.js'
+// service worker
 import * as serviceWorker from './serviceWorker';
-// import { createStore } from 'redux';
-// import { Provider } from 'react-redux';
-// import contactApp from './redux/reducers';
 
-// let store = createStore(contactApp);
 let rootElement = document.getElementById('root');
-// ReactDOM.render(
-//   <Provider store={store}>
-//     {() => <App />}
-//   </Provider>, 
-//   rootElement
-// );
+
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <App />
+  </Provider>, 
   rootElement
 );
 

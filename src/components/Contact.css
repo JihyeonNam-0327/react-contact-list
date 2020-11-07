@@ -70,14 +70,14 @@
 }
 
 .edit-button {
-  /* background-color: #FFC107; */
+  background-color: #ffffff;
   color: #ebb000;
   border-radius: 5px;
   border: 1px solid #ebb000;
 }
 
 .delete-button {
-  /* background-color: #DC3545; */
+  background-color: #ffffff;
   color: #DC3545;
   border-radius: 5px;
   border: 1px solid #DC3545;
